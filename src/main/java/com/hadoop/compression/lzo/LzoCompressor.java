@@ -32,7 +32,7 @@ import org.apache.hadoop.io.compress.Compressor;
  * http://www.oberhumer.com/opensource/lzo/
  * 
  */
-class LzoCompressor implements Compressor {
+public class LzoCompressor implements Compressor {
   private static final Log LOG = 
     LogFactory.getLog(LzoCompressor.class.getName());
 
